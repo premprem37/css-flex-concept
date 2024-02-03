@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:darkslategrey;
+    font-family: 'poppins',sans-serif;
+}
+.titlebar{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+.container div{
+    color: white;
+    width: 200px;
+    margin: 10px;
+    flex-basis: 20%;
+}
